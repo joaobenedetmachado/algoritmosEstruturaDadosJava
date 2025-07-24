@@ -1,6 +1,13 @@
 package BigONotation;
 
 public class O_n_log_n {
+
+    //A maioria dos alg. de sorting (quicksort, mergesort) com execeção do bubblesort (o (n log n²))
+
+    // são n log n
+
+    // Por exemplo: Mergesort, o que ele faz? ele divide o array no meio, ai gere dois novos array, ai ele vai fazendo esse merge (dividir) o array no meio ate que so sobre um elemento, então ele organiza-os a partir dai
+
     public static void mergeSort(int[] arr, int left, int right) {
         if (left < right) {
             int middle = (left + right) / 2;
